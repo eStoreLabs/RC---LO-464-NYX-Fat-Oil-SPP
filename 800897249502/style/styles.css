@@ -1,8 +1,3 @@
-/**
- * ----------------------------------------
- * animation blink-2
- * ----------------------------------------
- */
 @-webkit-keyframes blink-2 {
   0% {
     opacity: 1;
@@ -25,11 +20,7 @@
     opacity: 1;
   }
 }
-/**
- * ----------------------------------------
- * animation scale-in-center
- * ----------------------------------------
- */
+
 @-webkit-keyframes scale-in-center {
   0% {
     opacity: 0;
@@ -315,7 +306,6 @@ body {
 }
 .es-rc #es-rc-content .es-info__single {
   position: relative;
-  /* overflow: hidden; */
 }
 
 .es-rc #es-rc-content .es-info__single-checkbox {
@@ -423,6 +413,7 @@ body {
 }
 .es-rc #es-rc-content .es-colors__single--1 {
   background-color: #eceede;
+  background: -o-linear-gradient(top, #eceede 53%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -430,11 +421,11 @@ body {
     color-stop(53%, #eceede),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #eceede 53%, transparent 50%);
   background: linear-gradient(to bottom, #eceede 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--2 {
   background-color: #ec6995;
+  background: -o-linear-gradient(top, #ec6995 53%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -442,11 +433,11 @@ body {
     color-stop(53%, #ec6995),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #ec6995 53%, transparent 50%);
   background: linear-gradient(to bottom, #ec6995 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--3 {
   background-color: #de1063;
+  background: -o-linear-gradient(top, #de1063 53%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -454,11 +445,11 @@ body {
     color-stop(53%, #de1063),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #de1063 53%, transparent 50%);
   background: linear-gradient(to bottom, #de1063 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--4 {
   background-color: #7d1a48;
+  background: -o-linear-gradient(top, #7d1a48 53%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -466,11 +457,11 @@ body {
     color-stop(53%, #7d1a48),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #7d1a48 53%, transparent 50%);
   background: linear-gradient(to bottom, #7d1a48 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--5 {
   background-color: #bf0b38;
+  background: -o-linear-gradient(top, #bf0b38 53%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -478,11 +469,11 @@ body {
     color-stop(53%, #bf0b38),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #bf0b38 53%, transparent 50%);
   background: linear-gradient(to bottom, #bf0b38 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--6 {
   background-color: #c0644b;
+  background: -o-linear-gradient(top, #c0644b 53%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -490,11 +481,11 @@ body {
     color-stop(53%, #c0644b),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #c0644b 53%, transparent 50%);
   background: linear-gradient(to bottom, #c0644b 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--7 {
   background-color: #773213;
+  background: -o-linear-gradient(top, #773213 53%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -502,11 +493,11 @@ body {
     color-stop(53%, #773213),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #773213 53%, transparent 50%);
   background: linear-gradient(to bottom, #773213 53%, transparent 50%);
 }
 .es-rc #es-rc-content .es-colors__single--8 {
   background-color: #3a0300;
+  background: -o-linear-gradient(top, #3a0300 53%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -514,7 +505,6 @@ body {
     color-stop(53%, #3a0300),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #3a0300 53%, transparent 50%);
   background: linear-gradient(to bottom, #3a0300 53%, transparent 50%);
 }
 
@@ -615,6 +605,7 @@ body {
 }
 .es-rc #es-rc-content .es-shades__single--1 {
   background-color: #fee0fa;
+  background: -o-linear-gradient(top, #fee0fa 69%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -622,11 +613,11 @@ body {
     color-stop(69%, #fee0fa),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #fee0fa 69%, transparent 50%);
   background: linear-gradient(to bottom, #fee0fa 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--2 {
   background-color: #e77e8d;
+  background: -o-linear-gradient(top, #e77e8d 69%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -634,11 +625,11 @@ body {
     color-stop(69%, #e77e8d),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #e77e8d 69%, transparent 50%);
   background: linear-gradient(to bottom, #e77e8d 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--3 {
   background-color: #994346;
+  background: -o-linear-gradient(top, #994346 69%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -646,11 +637,11 @@ body {
     color-stop(69%, #994346),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #994346 69%, transparent 50%);
   background: linear-gradient(to bottom, #994346 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--4 {
   background-color: #782e2d;
+  background: -o-linear-gradient(top, #782e2d 69%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -658,11 +649,11 @@ body {
     color-stop(69%, #782e2d),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #782e2d 69%, transparent 50%);
   background: linear-gradient(to bottom, #782e2d 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--5 {
   background-color: #703227;
+  background: -o-linear-gradient(top, #703227 69%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -670,11 +661,11 @@ body {
     color-stop(69%, #703227),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #703227 69%, transparent 50%);
   background: linear-gradient(to bottom, #703227 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--6 {
   background-color: #ad563b;
+  background: -o-linear-gradient(top, #ad563b 69%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -682,11 +673,11 @@ body {
     color-stop(69%, #ad563b),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #ad563b 69%, transparent 50%);
   background: linear-gradient(to bottom, #ad563b 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--7 {
   background-color: #993861;
+  background: -o-linear-gradient(top, #993861 69%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -694,11 +685,11 @@ body {
     color-stop(69%, #993861),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #993861 69%, transparent 50%);
   background: linear-gradient(to bottom, #993861 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--8 {
   background-color: #cc0071;
+  background: -o-linear-gradient(top, #cc0071 69%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -706,11 +697,11 @@ body {
     color-stop(69%, #cc0071),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #cc0071 69%, transparent 50%);
   background: linear-gradient(to bottom, #cc0071 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--9 {
   background-color: #6f213b;
+  background: -o-linear-gradient(top, #6f213b 69%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -718,11 +709,11 @@ body {
     color-stop(69%, #6f213b),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #6f213b 69%, transparent 50%);
   background: linear-gradient(to bottom, #6f213b 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--10 {
   background-color: #9e003d;
+  background: -o-linear-gradient(top, #9e003d 69%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -730,11 +721,11 @@ body {
     color-stop(69%, #9e003d),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #9e003d 69%, transparent 50%);
   background: linear-gradient(to bottom, #9e003d 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--11 {
   background-color: #5c101c;
+  background: -o-linear-gradient(top, #5c101c 69%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -742,11 +733,11 @@ body {
     color-stop(69%, #5c101c),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #5c101c 69%, transparent 50%);
   background: linear-gradient(to bottom, #5c101c 69%, transparent 50%);
 }
 .es-rc #es-rc-content .es-shades__single--12 {
   background-color: #4d2f27;
+  background: -o-linear-gradient(top, #4d2f27 69%, transparent 50%);
   background: -webkit-gradient(
     linear,
     left top,
@@ -754,7 +745,6 @@ body {
     color-stop(69%, #4d2f27),
     color-stop(50%, transparent)
   );
-  background: -o-linear-gradient(top, #4d2f27 69%, transparent 50%);
   background: linear-gradient(to bottom, #4d2f27 69%, transparent 50%);
 }
 
@@ -1050,7 +1040,7 @@ body {
 
 .es-rc #es-rc-content .es-cross__img--plus {
   width: 44px;
-  height: auto;
+  height: auto !important;
 }
 .es-rc #es-rc-content .es-cross__name {
   color: #ffffff;
@@ -1214,139 +1204,120 @@ body {
   opacity: 1;
 }
 
-@media (min-width: 576px) {
+.es-rc #es-rc-content .es-colors {
+  background-color: #8bb312;
+  background-size: cover;
+  color: #fff;
+  padding-top: 0;
+  z-index: 1;
+  position: relative;
+}
+
+@media screen and (min-width: 1200px) {
   .es-rc #es-rc-content .es-text {
     font-size: 16px;
   }
-}
-@media screen and (min-width: 400px) {
   .es-rc #es-rc-content .es-kv__title {
     right: 7%;
   }
-}
-@media screen and (min-width: 768px) {
   .es-rc #es-rc-content .es-kv__title {
     right: 12%;
   }
-}
-@media screen and (min-width: 992px) {
   .es-rc #es-rc-content .es-kv__title {
     top: 6%;
     right: 5%;
     font-size: 19px;
   }
-}
-@media (min-width: 576px) {
   .es-rc #es-rc-content .es-kv__textCtn {
     padding: 16px 16px 0 16px;
   }
-}
-@media (min-width: 992px) {
   .es-rc #es-rc-content .es-kv__text-line--white {
     width: 100% !important;
   }
-}
-@media (min-width: 992px) {
+
   .es-rc #es-rc-content .es-kv__text-line {
     font-size: 9px;
     width: 80%;
   }
-}
-@media (min-width: 1300px) {
+
   .es-rc #es-rc-content .es-kv__text-line {
     font-size: 9px;
     width: 84%;
   }
-}
-@media (min-width: 400px) {
+
   .es-rc #es-rc-content .es-kv__text {
     bottom: -5%;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-kv__text {
     font-size: 10px;
   }
-}
-@media (min-width: 768px) {
+
   .es-rc #es-rc-content .es-kv__text {
     margin-top: 0;
     margin-bottom: 0;
     bottom: -2%;
     font-size: 14px;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-kv__container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-kv__container--left {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-kv__container--right {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
   }
-}
-@media (min-width: 360px) {
+
   .es-rc #es-rc-content .es-kv__badge {
     max-width: 100px;
   }
-}
-@media (min-width: 410px) {
+
   .es-rc #es-rc-content .es-kv__badge {
     left: 32px;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-kv__badge {
     max-width: 66px;
   }
-}
-@media (min-width: 768px) {
+
   .es-rc #es-rc-content .es-kv__badge {
     max-width: 100px;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-kv__packshot {
     width: 66%;
   }
-}
-@media (min-width: 768px) {
+
   .es-rc #es-rc-content .es-kv__packshot {
     width: 69%;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-kv__signs {
     bottom: 16px;
     right: 16px;
     max-width: 150px;
   }
-}
-@media (min-width: 768px) {
+
   .es-rc #es-rc-content .es-kv__signs {
     max-width: 220px;
     bottom: 24px;
     right: 24px;
   }
-}
-@media screen and (min-width: 992px) {
+
   .es-rc #es-rc-content .es-kv__signs {
     top: 22%;
     right: 5%;
   }
-}
-@media screen and (min-width: 768px) {
+
   .es-rc #es-rc-content .es-info .es-title::after {
     left: 19%;
   }
@@ -1354,36 +1325,30 @@ body {
   .es-rc #es-rc-content .es-info .es-info-title-image {
     left: 18%;
   }
-}
-@media screen and (min-width: 1300px) {
+
   .es-rc #es-rc-content .es-info .es-title::after {
     left: 12%;
     top: -15%;
     background-size: 50%;
   }
-}
-@media screen and (min-width: 1300px) {
+
   .es-rc #es-rc-content .es-info .es-info-title--2-image {
     left: 57%;
   }
-}
-@media screen and (min-width: 768px) {
+
   .es-rc #es-rc-content .es-info .es-title {
     text-align: left;
     font-size: 28px;
   }
-}
-@media screen and (min-width: 768px) {
+
   .es-rc #es-rc-content .es-info__subtitle {
     text-align: left;
   }
-}
-@media screen and (min-width: 1300px) {
+
   .es-rc #es-rc-content .es-info__subtitle {
     font-size: 16x;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-info__flexCtn {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1391,38 +1356,31 @@ body {
     flex-direction: row;
     gap: unset;
   }
-}
-@media (min-width: 768px) {
+
   .es-rc #es-rc-content .es-info__flexCtn {
     padding-left: 22px;
   }
   .es-rc #es-rc-content .es-info__flexCtn--2 {
     padding-top: 200px;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-info__leftCtn {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
   }
-}
-@media screen and (min-width: 1300px) {
+
   .es-rc #es-rc-content .es-info__single {
     font-size: 12px;
   }
-}
-@media screen and (min-width: 768px) {
+
   .es-rc #es-rc-content .es-info__rightCtn .es-info__product {
     display: none;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-info__rightCtn {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
   }
-}
-@media screen and (min-width: 768px) {
   .es-rc #es-rc-content .es-info-bg-b {
     display: none;
   }
@@ -1441,18 +1399,7 @@ body {
     -o-object-fit: cover;
     object-fit: cover;
   }
-}
 
-.es-rc #es-rc-content .es-colors {
-  background-color: #8bb312;
-  background-size: cover;
-  color: #fff;
-  padding-top: 0;
-  z-index: 1;
-  position: relative;
-}
-
-@media screen and (min-width: 768px) {
   .es-rc #es-rc-content .es-info--2 {
     margin-top: -260px;
     background-size: cover;
@@ -1471,65 +1418,15 @@ body {
   .es-rc #es-rc-content .es-colors {
     background-color: unset;
   }
-}
 
-@media screen and (min-width: 1300px) {
-  .es-rc #es-rc-content .es-colors__single {
-    min-width: 70px;
-    width: 20%;
-    max-width: 91.3px;
-    padding-top: 150px;
-  }
-}
-@media screen and (min-width: 1300px) {
-  .es-rc #es-rc-content .es-colors__img {
-    max-width: 78%;
-  }
-  .es-rc #es-rc-content .es-colors__img:hover {
-    scale: 1.25;
-  }
-}
-@media screen and (min-width: 1300px) {
-  .es-rc #es-rc-content .es-colors__name {
-    min-width: 100px;
-    font-size: 11px;
-  }
-}
-
-@media screen and (min-width: 1300px) {
-  .es-rc #es-rc-content .es-shades__single {
-    min-width: 52px;
-    width: 14%;
-    max-width: 60.8px;
-    padding-top: 150px;
-    height: 400px;
-  }
-}
-@media screen and (min-width: 1300px) {
-  .es-rc #es-rc-content .es-shades__img:hover {
-    scale: 1.25;
-  }
-}
-@media screen and (min-width: 1300px) {
-  .es-rc #es-rc-content .es-shades__name {
-    font-size: 8px;
-    min-width: 60px;
-  }
-  .es-rc #es-rc-content .es-shades__name--large {
-    font-size: 28px;
-  }
-}
-@media screen and (min-width: 768px) {
   .es-rc #es-rc-content .es-shades {
     margin-top: -5px;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-features__subtitle {
     font-size: 16px;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-features__single {
     padding-block: 0;
   }
@@ -1565,14 +1462,12 @@ body {
     height: 2px;
     background-color: #ffffff;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-features__tip--1 {
     top: -2%;
     z-index: 1;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-steps__stepCtn {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1580,30 +1475,25 @@ body {
     flex-direction: row;
     gap: 32px;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-steps__single:before {
     height: 250px;
   }
-}
-@media (min-width: 576px) {
+
   .es-rc #es-rc-content .es-steps__single--2:before {
     width: 60px;
     top: 41%;
   }
-}
-@media screen and (min-width: 768px) {
+
   .es-rc #es-rc-content .es-cross__title {
     margin-bottom: 20px;
     font-size: 34px;
   }
-}
-@media screen and (min-width: 768px) {
+
   .es-rc #es-rc-content .es-cross__subtitle {
     font-size: 18px;
   }
-}
-@media (min-width: 768px) {
+
   .es-rc #es-rc-content .es-cross__productsCtn {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1616,8 +1506,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
   }
-}
-@media screen and (min-width: 768px) {
+
   .es-rc #es-rc-content .es-cross__single--plus {
     -ms-flex-item-align: center;
     align-self: center;
@@ -1626,8 +1515,7 @@ body {
     flex-basis: auto;
     margin-left: -15px;
   }
-}
-@media screen and (min-width: 768px) {
+
   .es-rc #es-rc-content .es-cross__img {
     max-width: 120%;
     height: 300px;
@@ -1635,55 +1523,40 @@ body {
   .es-rc #es-rc-content .es-cross__img--2 {
     height: 260px;
   }
-}
-@media (min-width: 768px) {
+
   .es-rc #es-rc-content .es-cross__star--1 {
     top: -16%;
     left: 15%;
   }
-}
-@media (min-width: 768px) {
+
   .es-rc #es-rc-content .es-cross__star--2 {
     top: 3%;
     left: 13%;
   }
-}
-@media (min-width: 768px) {
+
   .es-rc #es-rc-content .es-cross__star--3 {
     bottom: -3%;
     left: 17%;
     top: auto;
   }
-}
-@media (min-width: 410px) {
+
   .es-rc #es-rc-content .es-cross__star--4 {
     right: 15%;
   }
-}
-@media (min-width: 768px) {
+
   .es-rc #es-rc-content .es-cross__star--4 {
     right: 11%;
     top: -13%;
   }
-}
-@media (min-width: 410px) {
+
   .es-rc #es-rc-content .es-cross__star--5 {
     right: 8%;
   }
-}
-@media (min-width: 768px) {
+
   .es-rc #es-rc-content .es-cross__star--5 {
     right: -4%;
     top: 22%;
   }
-}
-@media screen and (min-width: 1300px) {
-  .es-rc #es-rc-content .es-cross {
-    margin-top: -260px;
-    padding-top: 300px;
-  }
-}
-@media screen and (min-width: 760px) {
   .es-rc #es-rc-content .es-photos__items {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1698,5 +1571,49 @@ body {
   }
   .es-rc #es-rc-content .es-photos__img {
     max-width: 33.4%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .es-rc #es-rc-content .es-colors__single {
+    min-width: 70px;
+    width: 20%;
+    max-width: 91.3px;
+    padding-top: 150px;
+  }
+  .es-rc #es-rc-content .es-colors__img {
+    max-width: 78%;
+  }
+  .es-rc #es-rc-content .es-colors__img:hover {
+    scale: 1.25;
+  }
+  .es-rc #es-rc-content .es-colors__name {
+    min-width: 100px;
+    font-size: 11px;
+  }
+
+  .es-rc #es-rc-content .es-shades__single {
+    min-width: 52px;
+    width: 14%;
+    max-width: 60.8px;
+    padding-top: 150px;
+    height: 400px;
+  }
+
+  .es-rc #es-rc-content .es-shades__img:hover {
+    scale: 1.25;
+  }
+
+  .es-rc #es-rc-content .es-shades__name {
+    font-size: 8px;
+    min-width: 60px;
+  }
+  .es-rc #es-rc-content .es-shades__name--large {
+    font-size: 28px;
+  }
+
+  .es-rc #es-rc-content .es-cross {
+    margin-top: -260px;
+    padding-top: 300px;
   }
 }
